@@ -45,7 +45,7 @@ rust_library_rlib {
     crate_name: "foreign_types",
     cargo_env_compat: true,
     cargo_pkg_version: "0.3.1",
-    srcs: ["src/lib.rs"],
+    crate_root: "src/lib.rs",
     edition: "2015",
     rustlibs: ["libforeign_types_shared"],
     apex_available: [
